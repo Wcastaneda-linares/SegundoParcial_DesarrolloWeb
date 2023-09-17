@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visor de Imágenes</title>
+    <link rel="stylesheet" href="/estilos/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <h1>Visor de Imágenes</h1>
+    <!-- Formulario para ingresar la URL de la imagen -->
+    <form id="form">
+      <label for="image-url">URL de la Imagen:</label>
+      <input
+        type="text"
+        id="image-url"
+        placeholder="Ingresa la URL de la imagen"
+      />
+      <br />
+      <div>
+        <button type="button" id="mostrar-imagen-button">
+          <i class="fa fa-eye fa-lg" aria-hidden="true"></i> Mostrar Imagen
+        </button>
+      </div>
+      <div>
+        <button type="button" id="limpiar-imagen-button">
+          <i class="fa fa-paint-brush fa-lg" aria-hidden="true"></i> Limpiar
+          Imagen
+        </button>
+      </div>
+    </form>
+
+    <!-- Div que nos muestra la imagen -->
+    <div class="container" id="image-viewer"></div>
+    <script type="module" src="/aggregator.js"></script>
+    <button id="botonRedireccion">
+      <i class="fa fa-home fa-lg"></i> Ir a inicio
+    </button>
+    <script src="/js/script.js"></script>
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

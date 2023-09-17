@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link rel="stylesheet" href="/estilos/styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <h1>Lista de Tareas</h1>
+    <form id="calculator-form">
+    
+    <div>
+      <label for="newTaskList">Agrega nuevas Tareas:</label>
+        <input type="text" id="taskInput" placeholder="Nueva tarea">
+        <button type="button" id="addTaskButton"><i class="fa fa-tasks fa-lg" aria-hidden="true"></i>  Agregar tarea</button>
+    </div>
+    </form>
+    <form id="calculator-form">
+    <h2 style="text-align: center;">Listado de Tareas</h1>
+        <ul class="lin" id="taskList"></ul>
+    </form>
+    <script type="module" src="/aggregator.js"></script>
+
+    <button id="botonRedireccion">
+      <i class="fa fa-home fa-lg"></i> Ir a inicio
+    </button>
+    <script src="/js/script.js"></script>
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

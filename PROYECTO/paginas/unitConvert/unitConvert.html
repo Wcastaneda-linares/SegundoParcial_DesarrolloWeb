@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversión de Unidades</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/estilos/styles.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <h1>Conversión de Unidades</h1>
+    <form id="calculator-form">
+      <label for="celsius">Celsius:</label>
+      <input
+        type="number"
+        id="celsius"
+        placeholder="Ingresa temperatura en Celsius"
+      />
+      <button type="button" id="convertCelsiusToFahrenheitButton">
+        <i class="fa fa-exchange" aria-hidden="true"></i> Convertir a Fahrenheit
+      </button>
+      <br />
+      <br />
+      <label for="fahrenheit">Fahrenheit:</label>
+      <input
+        type="number"
+        id="fahrenheit"
+        placeholder="Ingresa temperatura en Fahrenheit"
+      />
+      <button type="button" id="convertFahrenheitToCelsiusButton">
+        <i class="fa fa-exchange" aria-hidden="true"></i> Convertir a Celsius
+      </button>
+      <br />
+      <div id="result"></div>
+    </form>
+
+    <script type="module" src="/aggregator.js"></script>
+    <button id="botonRedireccion">
+      <i class="fa fa-home fa-lg"></i> Ir a inicio
+    </button>
+    <script src="/js/script.js"></script>
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+/* Estilos de todas las paginas html */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  background: linear-gradient(to right, #0077ff, #0c0c0c);
+}
+
+div {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.lin {
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+select {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+
+.container {
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-right-width: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 99;
+  opacity: 0.9;
+}
+
+#imageContainer {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+input[type="number"],
+input[type="checkbox"] {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#result {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+/* Path: estilos/styles.css */
+
+
+label {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+/* Menú de navegación */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+a:visited {
+  color: #6c757d;
+}
+
+a:active {
+  color: #0056b3;
+}
